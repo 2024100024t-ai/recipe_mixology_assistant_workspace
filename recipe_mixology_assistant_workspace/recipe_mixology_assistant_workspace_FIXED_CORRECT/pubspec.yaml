@@ -1,0 +1,10 @@
+name: recipe_mixology_assistant_workspace
+publish_to: none
+
+environment:
+  sdk: ^3.8.1
+
+workspace:
+  - cocktail_api
+  - cocktail_cli
+  - terminal_colors
